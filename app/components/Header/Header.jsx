@@ -20,7 +20,7 @@ const Header = () => {
           <div>
             <Image src={clock} alt="horarios" width={60} height={60}/>
           </div>
-          <div>
+          <div className={style.horarios}>
             <h3 className={style.texto}>Monday to sunday 9:00 a 19:00 hr</h3>
             <h4 className={style.subTexto}>Open the 365 days of the years </h4>
           </div>

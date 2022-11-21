@@ -42,5 +42,11 @@
   .contenedorSecundario p {
     font-size: 1.2rem;
     margin-top: 2rem;
+    font-family: 'OutfitR';
+  }
+  .contenedorSecundario 
+  {
+    width: 100%;
+  
   }
 }

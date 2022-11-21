@@ -17,16 +17,6 @@
     font-family: 'OutfitR';
     font-size: 4rem;
   }
-  .contenedorHome
-  {
-    max-width: 120rem;
-    height: 55rem;
-    background-image: url("../public/img/backgroundBikes.jpg");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-    margin-top: 0;
-  }
   .contenedorLink 
   {
     max-width: 120rem;
@@ -62,7 +52,7 @@
 }
 .contenedorTitulo 
 {
-  max-width: 100%;
+  width: 100%;
   height: auto;
   padding-top: 2rem;
   padding-bottom: 4rem;
@@ -111,15 +101,34 @@
 }
 
 @media (max-width:768px){
+
+  .containerPrincipal
+  {
+    width: 100%;
+  }
+.contenedorTitulo 
+{
+  width: 100%;
+  
+}
+
+
   .contenedorTitulo h2 {
-    font-size: 4rem;
+    font-size: 3rem;
   }
   .contenedorTitulo h3 {
     font-size: 2rem;
+    width: 90%;
     margin-top: 2rem;
   }
   .contenedorLink 
   {
     display:none;
+  }
+  .btnReserva 
+  {
+    width: 100%;
+    font-size: 1.2rem;
+    padding: 1rem;
   }
 }

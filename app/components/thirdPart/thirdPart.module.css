@@ -54,12 +54,22 @@
 @media(max-width:768px){
     .contenedorCard 
     {
-        width: 30rem;
+        width:100%;
         margin-bottom: 3rem;
     }
     .contenedorCard img 
     {
        width:100%; 
+    }
+    .contenedorTres h2 
+    {
+      font-size: 4rem;
+    }
+    .contenedorTres 
+    {
+      width: 100%;
+      padding: 1rem;
+      
     }
     
 }
