@@ -1,14 +1,14 @@
 @font-face {
   font-family: "OutfitR";
-  src: url("../../../public/fonts/Outfit-Regular.ttf");
+  src: url("../../../src/fonts/Outfit-Regular.ttf");
 }
 @font-face {
     font-family: "OutfitRI";
-    src: url("../../../public/fonts/Outfit-ExtraLight.ttf");
+    src: url("../../../src/fonts/Outfit-ExtraLight.ttf");
   }
 @font-face {
   font-family: "Kalam";
-  src: url("../../../public/fonts/Kalam-Regular.ttf");
+  src: url("../../../src/fonts/Kalam-Regular.ttf");
 }
 
 /*color: rgb(32, 250, 12);*/

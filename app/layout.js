@@ -1,6 +1,6 @@
 import Header from "./components/Header/Header"
-import '../public/style/normalize.css'
-import '../public/style/global.css'
+import '../src/style/normalize.css'
+import '../src/style/global.css'
 
 
 export default function RootLayout({ children }) {

@@ -2,11 +2,11 @@
 
 @font-face {
     font-family: 'OutfitR';
-    src: url('../../../public/fonts/Outfit-Regular.ttf') 
+    src: url('../../../src/fonts/Outfit-Regular.ttf') 
   }
   @font-face {
     font-family: 'Kalam';
-    src: url('../../../public/fonts/Kalam-Regular.ttf') 
+    src: url('../../../src/fonts/Kalam-Regular.ttf') 
   }
 
   

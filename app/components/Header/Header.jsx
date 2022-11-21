@@ -1,8 +1,8 @@
 import Link from 'next/link';
 import style from '../Header/header.module.css';
 import Image from 'next/image';
-import logo from '../../../public/img/logoOriginal.png'
-import clock from '../../../public/img/reloj2.png'
+import logo from '../../../src/img/logoOriginal.png'
+import clock from '../../../src/img/reloj2.png'
 
 const Header = () => {
 

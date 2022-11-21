@@ -2,9 +2,9 @@
 import React, { useEffect } from 'react';
 import style from './thirdPart.module.css';
 import Image from 'next/image';
-import cuatrohoras from '../../../public/img/logocuatro.png'
-import ochohoras from '../../../public/img/logoocho.png'
-import veinticuatrohoras from '../../../public/img/logoveinticuatro.png'
+import cuatrohoras from '../../../src/img/logocuatro.png'
+import ochohoras from '../../../src/img/logoocho.png'
+import veinticuatrohoras from '../../../src/img/logoveinticuatro.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
 

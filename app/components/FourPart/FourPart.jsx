@@ -4,10 +4,10 @@ import Image from "next/image";
 import style from "./fourPart.module.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import herramientas from "../../../public/img/herramientas.png";
-import mapa from "../../../public/img/mapa.png";
-import montana from "../../../public/img/montana.png";
-import bicycle from "../../../public/img/bicycle.png";
+import herramientas from "../../../src/img/herramientas.png";
+import mapa from "../../../src/img/mapa.png";
+import montana from "../../../src/img/montana.png";
+import bicycle from "../../../src/img/bicycle.png";
 
 const FourPart = () => {
   useEffect(() => {
