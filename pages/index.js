@@ -1,9 +1,9 @@
 import style from './style.module.css';
-import  layout   from './layout';
 import  Link from 'next/link'
-import SecondPart from './components/SecondPart/SecondPart';
-import ThirdPart from './components/thirdPart/ThirdPart';
-import FourPart from './components/FourPart/FourPart';
+import SecondPart from '../components/SecondPart/SecondPart';
+import ThirdPart from '../components/thirdPart/ThirdPart';
+import FourPart from '../components/FourPart/FourPart';
+import Layout from '../components/Layout'
 
 
 
@@ -14,7 +14,7 @@ export default function HomePage() {
 
   return (
   <>
-    <layout/>
+  <Layout/>
     <div className={style.containerPrincipal}>
               <div className={style.contenedorLink}>
                   <Link href="/">About us</Link>
