@@ -1,0 +1,65 @@
+
+
+@font-face {
+    font-family: 'OutfitR';
+    src: url('../../../public/fonts/Outfit-Regular.ttf') 
+  }
+  @font-face {
+    font-family: 'Kalam';
+    src: url('../../../public/fonts/Kalam-Regular.ttf') 
+  }
+
+  
+  .contenedorTres 
+  {
+    max-width: 120rem;
+    height: auto;
+    padding: 3rem ;
+    background-color: #fff;
+  }
+  .contenedorTres h2 
+  {
+    font-size: 5rem;
+    text-align: center;
+    margin-bottom: 4rem;
+    color: #1e1e1e;
+    font-family: 'OutfitR';
+  }
+
+.contenedorImagenes 
+{
+  max-width:120rem;
+  height: auto;
+  padding: 3rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contenedorCard
+{
+    width: 20rem;
+    height: 25rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card
+{
+    box-shadow: 0 0 1rem #7d7d7d;
+}
+
+@media(max-width:768px){
+    .contenedorCard 
+    {
+        width: 30rem;
+        margin-bottom: 3rem;
+    }
+    .contenedorCard img 
+    {
+       width:100%; 
+    }
+    
+}

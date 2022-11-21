@@ -1,0 +1,15 @@
+
+body 
+{
+    background-image: url('../img/rob-martin-S9L47l_iYv8-unsplash.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+
+
+}
+@media(max-width:768px){
+    body {
+        background-position: center center;
+    }
+}
