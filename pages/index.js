@@ -8,19 +8,15 @@ import Layout from '../components/Layout'
 
 
 
+
 export default function HomePage() {
 
 
 
   return (
-  <>
-  <Layout/>
+  
+  <Layout>
     <div className={style.containerPrincipal}>
-              <div className={style.contenedorLink}>
-                  <Link href="/">About us</Link>
-                  <Link href="/">Price</Link>
-                  <Link href="/">Contact</Link>
-             </div>
               <div className={style.contenedorTitulo}>
                   <h2>Rental Bike in Mendoza</h2>
                   <h3>Your own adventure on two wheels Mendoza awaits you!!</h3>
@@ -30,9 +26,17 @@ export default function HomePage() {
   
   
     </div>
+   
    <SecondPart/>
+   <div className={style.galeriaImagenes}>
+    <h2>Choose the one you like the most
+         And start pedaling!</h2>
+    <button><Link href='/Galery'>See option</Link></button>
+   </div>
+   
    <ThirdPart/>
    <FourPart/>
-    </>
+
+   </Layout>
   )
 }

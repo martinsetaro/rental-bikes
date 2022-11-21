@@ -2,6 +2,10 @@
     font-family: 'OutfitR';
     src: url('../src/fonts/Outfit-Regular.ttf') 
   }
+  @font-face {
+    font-family: 'OutfitExR';
+    src: url('../src/fonts/Outfit-ExtraLight.ttf') 
+  }
 
   .containerPrincipal 
   {
@@ -98,6 +102,47 @@
   color: #08f008;
   transform: scale(1.1,1.1);
   box-shadow: 0 0 1rem #08f008;
+}
+.galeriaImagenes 
+{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #1e1e1e;
+  padding: 3rem 0;
+  color:rgb(32, 250, 12);
+}
+.galeriaImagenes button 
+{
+  width: 10rem;
+  height: 3rem;
+  background-color: #08f008;
+  border: 0;
+  color: #ffffff;
+  margin-top: 2rem;
+  transition: all .3s ease-in-out;
+  border-radius: .3rem;
+}
+.galeriaImagenes button:hover
+{
+  border: .1rem solid #08f008;
+  background-color: #1e1e1e;
+
+}
+.galeriaImagenes a 
+{
+  text-decoration: none;
+  color: #ffffff;
+  font-family: 'OutfitR';
+  font-size: 1.5rem;
+}
+.galeriaImagenes h2 
+{
+  font-size: 4rem;
+  text-align: center;
+  font-family: 'OutfitExR';
 }
 
 @media (max-width:768px){
