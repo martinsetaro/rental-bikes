@@ -20,7 +20,7 @@ export default function HomePage() {
               <div className={style.contenedorTitulo}>
                   <h2>Rental Bike in Mendoza</h2>
                   <h3>Your own adventure on two wheels Mendoza awaits you!!</h3>
-                  <Link href="https://api.whatsapp.com/send?phone=+5492612572051&text=Hola!%20quisiera%20obtener%20m%C3%A1s%20informacion%20sobre%20el%20alquiler%20de%20las%20bicicletas.%20Gracias"><button className={style.btnReserva}>make a reservation</button></Link>
+                  <Link href="https://api.whatsapp.com/send?phone=+5492616442682&text=Estoy%20enviando%20un%20mensaje%20desde%20la%20aplicacion%20web%20%22BCR%20Mountain%20Bike%20Rental%22%20,%20me%20gustaria%20tener%20m%C3%A1s%20informaci%C3%B3n.%20Muchas%20gracias!"><button className={style.btnReserva}>make a reservation</button></Link>
               </div>
    
   

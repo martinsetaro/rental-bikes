@@ -124,12 +124,19 @@
   margin-top: 2rem;
   transition: all .3s ease-in-out;
   border-radius: .3rem;
+  animation: tocar .6s linear infinite;
 }
 .galeriaImagenes button:hover
 {
   border: .1rem solid #08f008;
   background-color: #1e1e1e;
 
+}
+
+@keyframes tocar {
+  0%{ box-shadow:  0 0 .5rem #08f008;}
+  50%{ box-shadow: 0 0 .7rem #08f008;}
+  100%{ box-shadow: 0 0 1rem #08f008;}
 }
 .galeriaImagenes a 
 {
@@ -155,6 +162,10 @@
 {
   width: 100%;
   
+}
+.galeriaImagenes h2 
+{
+  font-size: 2rem;
 }
 
 

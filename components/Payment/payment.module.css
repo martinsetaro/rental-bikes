@@ -1,0 +1,63 @@
+@font-face {
+    font-family: "OutfitR";
+    src: url("../../src/fonts/Outfit-Regular.ttf");
+  }
+  @font-face {
+      font-family: "OutfitRI";
+      src: url("../../src/fonts/Outfit-ExtraLight.ttf");
+    }
+  @font-face {
+    font-family: "Kalam";
+    src: url("../../src/fonts/Kalam-Regular.ttf");
+  }
+  
+  /*color: rgb(32, 250, 12);*/
+
+  .contenedorPayment 
+  {
+    width: 100%;
+    height: 30rem;
+    background-color: #fff;
+  }
+  .contenedorInfoPago
+  {
+    width: 60%;
+    height: auto;
+    margin: 2rem auto;
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0 .3rem #ededed;
+    padding: 2rem;   
+  }
+  .imagenPago ,
+  .informacionPago
+  {
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .imagenPago img 
+  {
+    width: 80%;
+    height: 100%;
+  }
+  .informacionPago p 
+  {
+    font-size: 1.2rem;
+    font-family: 'OutfitR';
+  }
+  
+  @media(max-width:7680px){
+    .contenedorPayment 
+    {
+        width: 100%;
+        height: auto;
+    }
+    .contenedorInfoPago 
+    {
+        flex-direction: column;
+        width: 100%;
+    }
+  }

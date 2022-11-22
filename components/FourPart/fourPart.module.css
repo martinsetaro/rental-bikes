@@ -85,10 +85,11 @@
     }
     .tarjetas img 
     {
-        margin-left:7rem;
+        margin-left:9rem;
     }
     .contenedorCuatro h2 {
         font-size: 2rem;
+        padding: 0 1rem;
         
     }
 }
