@@ -1,6 +1,7 @@
-import React, { useEffect } from "react";
+import React, { useEffect , useState } from "react";
 import Image from "next/image";
 import style from "../pages/galery.module.css";
+import styles from '../pages/style.module.css'
 import rider from "../public/assets/img/rider.png";
 import riderDos from "../public/assets/img/riderDos.jpg";
 import Layout from "../components/Layout";
@@ -28,18 +29,46 @@ import img18 from "../public/assets/img/img18.jpeg";
 import img19 from "../public/assets/img/img19.jpeg";
 import img20 from "../public/assets/img/img20.jpeg";
 import Payment from "../components/Payment/Payment";
+import brasil from '../public/assets/img/brasil.jpg';
+import usa from '../public/assets/img/usa.png';
+import traduccion from "./traduccion";
+
+
 
 const Galery = () => {
+
+
+  const [ translation , setTranslation ] = useState(false)
+
   useEffect(() => {
     AOS.init();
   }, []);
+
+
+  const handlerTraducirEn = ()=>{
+    setTranslation(false)
+  }
+  const handlerTraducirPt= ()=>{
+    setTranslation(true)
+  }
+
 
   return (
     <>
       <Layout>
         <div className={style.contenedorGaleria}>
-          <button className={style.buttonClass}><Link href="/">Home</Link></button>
-          <h2>Choose the option you like</h2>
+        <div className={styles.traductor}>
+        <Image 
+        onClick={handlerTraducirPt}
+        src={brasil} alt="brazil" width={60} height={40}/>
+        <Image 
+        onClick={handlerTraducirEn}
+        src={usa} alt="usa" width={60} height={40}/>
+       </div>
+          <button className={style.buttonClass}><Link href="/">
+            {translation ? `${traduccion.btnHomePt}` : `${traduccion.btnHomeEn}`}
+            </Link></button>
+          {translation ? <h2>{traduccion.elegirBicicletaPt}</h2> : <h2>{traduccion.elegirBicicletaEn}</h2>}
           <div className={style.contenedorInformacion}>
             <div
               className={style.contenedorImagen}
@@ -54,30 +83,17 @@ const Galery = () => {
               data-aos="fade-up"
               data-aos-duration="1000"
             >
-              <p>
-                 🟢 We have brand new, brand new, all terrain bikes, with
-                suspension, adjustable seat, foot and 21 gear combinations. All
-                29 wheel with the option to choose size L (large) or M (medium)
-                depending on your height and for your comfort.
-              </p>
-              <p>
-              🟢 All 100% operational with controls for suspension, tires,
-                brakes, etc.
-              </p>
-              <p>
-              🟢 It also has a 24-hour assistance service in case of a flat tire
-                or any other inconvenience.
-              </p>
-              <p>
-              🟢 Transfer to Hotel or lodging free of charge, for delivery and
-                pick up of bicycles.
-              </p>
-              <p>Maps of ciclovias and parks of the City of gift.</p>
-              <Link href="https://api.whatsapp.com/send?phone=+5492616442682&text=Estoy%20enviando%20un%20mensaje%20desde%20la%20aplicacion%20web%20%22BCR%20Mountain%20Bike%20Rental%22%20,%20me%20gustaria%20tener%20m%C3%A1s%20informaci%C3%B3n.%20Muchas%20gracias!"><button className={style.btnReserva}>make a reservation</button></Link>
+              {translation ? <p>🟢 {traduccion.textoUnoPt}</p> : <p>🟢 {traduccion.textoUnoEn}</p>}
+              {translation ? <p>🟢 {traduccion.textoDosPt}</p> : <p>🟢 {traduccion.textoDosEn}</p>}
+              {translation ? <p>🟢 {traduccion.textoTresPt}</p> : <p>🟢 {traduccion.textoTresEn}</p>}
+              {translation ? <p>🟢 {traduccion.textoCuatroPt}</p> : <p>🟢 {traduccion.textoCuatroEn}</p>}
+              {translation ? <p>🟢 {traduccion.textoCincoPt}</p> : <p>🟢 {traduccion.textoCincoEn}</p>}
+             
+              <Link href="https://api.whatsapp.com/send?phone=+5492616442682&text=Estoy%20enviando%20un%20mensaje%20desde%20la%20aplicacion%20web%20%22BCR%20Mountain%20Bike%20Rental%22%20,%20me%20gustaria%20tener%20m%C3%A1s%20informaci%C3%B3n.%20Muchas%20gracias!"><button className={style.btnReserva}>{translation ? "Faça uma reserva" : "Make a reservation"}</button></Link>
             </div>
           </div>
           <div className={style.tituloGalery}>
-             <h2>Galery</h2>
+             {translation ? <h2>Galeria</h2> : <h2>Galery</h2>}
           </div>
 
           <div className={style.slider}>
@@ -145,7 +161,7 @@ const Galery = () => {
               </li>
             </ul>
           </div>
-          <Payment/>
+          <Payment translation={translation}/>
         </div>
       </Layout>
     </>

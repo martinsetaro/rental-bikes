@@ -28,19 +28,19 @@ export default function HomePage() {
 const handlerTraducirPt = () =>{
 
  setTranslation(true)
- localStorage.setItem('idioma',translation);
+ 
  
 }
 const handlerTraducirEn = () =>{
 
   setTranslation(false)
-  localStorage.setItem('idioma',translation);
+
   
  }
 
   return (
   
-  <Layout>
+  <Layout translation={translation}>
     <div className={style.containerPrincipal}>
       <div className={style.traductor}>
         <Image 
