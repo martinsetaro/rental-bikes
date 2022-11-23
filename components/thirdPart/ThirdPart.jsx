@@ -7,7 +7,7 @@ import ochohoras from '../../public/assets/img/logoocho.png'
 import veinticuatrohoras from '../../public/assets/img/logoveinticuatro.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
-import traduccion from '../../pages/traduccion';
+import traduccion from '../../components/traduccion'
 
 
 

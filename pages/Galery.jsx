@@ -31,7 +31,7 @@ import img20 from "../public/assets/img/img20.jpeg";
 import Payment from "../components/Payment/Payment";
 import brasil from '../public/assets/img/brasil.jpg';
 import usa from '../public/assets/img/usa.png';
-import traduccion from "./traduccion";
+import traduccion from "../components/traduccion";
 
 
 

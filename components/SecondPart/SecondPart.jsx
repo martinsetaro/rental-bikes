@@ -1,7 +1,7 @@
 
 import React, { useEffect, useState } from 'react'
 import style from './secondPart.module.css'
-import traduccion from './traduccion'
+import traduccion from './traduccion.js'
 
 
 

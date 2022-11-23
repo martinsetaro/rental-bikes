@@ -1,7 +1,7 @@
 import style from "./payment.module.css";
 import Image from "next/image";
 import money from "../../public/assets/img/money.png";
-import traduccion from "../../pages/traduccion";
+import traduccion from "../../components/traduccion";
 
 const Payment = ({translation}) => {
   return (
