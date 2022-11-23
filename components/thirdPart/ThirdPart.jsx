@@ -7,6 +7,7 @@ import ochohoras from '../../public/assets/img/logoocho.png'
 import veinticuatrohoras from '../../public/assets/img/logoveinticuatro.png'
 import AOS from 'aos';
 import 'aos/dist/aos.css'; 
+import traduccion from '../../pages/traduccion';
 
 
 
@@ -14,7 +15,7 @@ import 'aos/dist/aos.css';
 
 
 
-const ThirdPart = () => {
+const ThirdPart = ({translation}) => {
 
 useEffect(()=>{
     AOS.init();
@@ -25,7 +26,7 @@ useEffect(()=>{
 
   return (
     <div className={style.contenedorTres}>
-        <h2>Rent a city bike</h2>
+       {translation ? <h2>{traduccion.preciosPt}</h2> : <h2>{traduccion.preciosEn}</h2>}
         <div className={style.contenedorImagenes}>
        
              <div data-aos="flip-left" data-aos-duration="1000" className={style.contenedorCard}>
