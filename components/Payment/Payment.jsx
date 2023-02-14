@@ -13,6 +13,7 @@ const Payment = ({translation}) => {
         </div>
         <div className={style.informacionPago}>
           {translation ? <p>{traduccion.metodoPagoPt}</p> : <p>{traduccion.metodoPagoEn}</p>}
+          {translation ? <h3>{traduccion.metodoPagoTextoPt}</h3> : <h3>{traduccion.metodoPagoTextoEn}</h3>}
         </div>
       </div>
     </div>

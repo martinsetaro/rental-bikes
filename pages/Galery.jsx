@@ -9,9 +9,6 @@ import Link from "next/link";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import img1 from "../public/assets/img/img1.jpeg";
-import img2 from "../public/assets/img/img2.jpeg";
-import img3 from "../public/assets/img/img3.jpeg";
-import img4 from "../public/assets/img/img4.jpeg";
 import img5 from "../public/assets/img/img5.jpeg";
 import img6 from "../public/assets/img/img6.jpeg";
 import img7 from "../public/assets/img/img7.jpeg";
@@ -92,9 +89,23 @@ const Galery = () => {
               <Link href="https://api.whatsapp.com/send?phone=+5492616442682&text=Estoy%20enviando%20un%20mensaje%20desde%20la%20aplicacion%20web%20%22BCR%20Mountain%20Bike%20Rental%22%20,%20me%20gustaria%20tener%20m%C3%A1s%20informaci%C3%B3n.%20Muchas%20gracias!"><button className={style.btnReserva}>{translation ? "Faça uma reserva" : "Make a reservation"}</button></Link>
             </div>
           </div>
+
+          <div className={style.contenedorDatosExtras}>
+            <div className={style.sillasninos}>
+            {translation ? <h2>{traduccion.familiaPt}</h2> : <h2>{traduccion.familiaEn}</h2>}
+            {translation ? <h2>{traduccion.sillasninosPt}</h2> : <h2>{traduccion.sillasninosEn}</h2>}
+            {translation ? <h4>{traduccion.adicionalPt}</h4> : <h4>{traduccion.adicionalEn}</h4>}
+            </div>
+            <div className={style.contenedorCardDatosExtras}>
+                {translation ? <h2>{traduccion.tamañoPt}</h2> : <h2>{traduccion.tamañoEn}</h2>}
+            </div>
+            
+          </div>
+
           <div className={style.tituloGalery}>
              {translation ? <h2>Galeria</h2> : <h2>Galery</h2>}
           </div>
+         
 
           <div className={style.slider}>
            

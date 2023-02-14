@@ -49,13 +49,20 @@
 
   .imagenPago img 
   {
-    width: 80%;
-    height: 20rem;
+    width: 100%;
+    height: 30rem;
+    border-radius: 1rem;
   }
   .informacionPago p 
   {
     font-size: 1.2rem;
     font-family: 'OutfitR';
+  }
+  .informacionPago h3 
+  {
+    font-size: 1.4rem;
+    font-family: 'OutfitR';
+    margin-top: 2rem;
   }
   
   @media(max-width:768px){
@@ -63,13 +70,27 @@
     {
         width: 100%;
         height: auto;
+       
         
     }
     .contenedorPayment .contenedorInfoPago 
     {
-        flex-direction: column;
+      
         width: 100%;
-        text-align: center;
-        padding: 2rem 3rem;
+        height: auto;
+        display: flex;
+        flex-direction: column;
+       
     }
+    .contenedorPayment .contenedorInfoPago .imagenPago 
+    {
+      width: 90%;
+      margin: 1rem auto;
+    }
+    .contenedorPayment .contenedorInfoPago .informacionPago 
+    {
+      text-align: center;
+      margin: 1rem auto;
+    }
+   
   }

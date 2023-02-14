@@ -50,16 +50,26 @@
 {
     box-shadow: 0 0 1rem #7d7d7d;
 }
+.contenedorElementos {
+  font-family: 'OutfitR';
+  font-size: 1.8rem;
+  border-top: .1rem solid #1e1e1e;
+  border-bottom: .1rem solid #1e1e1e;
+  padding-bottom: 1rem;
+}
 
 @media(max-width:768px){
     .contenedorCard 
     {
         width:100%;
+        height: auto;
         margin-bottom: 3rem;
     }
     .contenedorCard img 
     {
-       width:100%; 
+       width:100%;
+       height: auto; 
+       margin-bottom: .5rem;
     }
     .contenedorTres h2 
     {

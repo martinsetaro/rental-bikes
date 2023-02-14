@@ -17,7 +17,7 @@
   max-width: 120rem;
   height: auto;
   padding: 3rem 2rem;
-  background-color: azure;
+  
 }
 .contenedorCuatro h2 {
   font-family: "OutFitR";
@@ -41,12 +41,15 @@
     height: 15rem;
     display: flex;
     margin-top: 3rem;
+    
 }
 .tarjetas p {
     width: 70%;
     margin-left: 2rem;
-    font-family: 'Kalam';
+    font-family: 'OutfitR';
     font-size: 1.2rem;
+    color:#fff;
+    font-weight: 700;
 }
 
 @media (max-width:768px){
@@ -85,7 +88,7 @@
     }
     .tarjetas img 
     {
-        margin-left:9rem;
+        margin: 1rem auto;
     }
     .contenedorCuatro h2 {
         font-size: 2rem;
