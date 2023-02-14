@@ -211,6 +211,10 @@
    margin-bottom: 2rem;
     
   }
+  .contenedorDatosExtras .sillasninos h2 
+  {
+    font-size: 1.4rem;
+  }
   .contenedorDatosExtras .contenedorCardDatosExtras
   {
     width: 100%;
