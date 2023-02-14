@@ -108,11 +108,42 @@
     width: 100%;
     height: auto;
     padding: 1rem;
-    margin-left: 4rem;
+    
   }
   .subTexto 
   {
     font-size: 1.5rem;
     margin-left: 0;
+  }
+}
+@media (max-width:320px){
+ .navegador img 
+ {
+  width: 5rem;
+  height: 5rem;
+ }
+ .texto{
+  font-size: 1.4rem;
+ }
+ .subTexto 
+ {
+  font-size: 1.1rem;
+  margin-left: 1rem;
+ }
+}
+
+@media (min-width:320px) and (max-width:375px){
+  .navegador img 
+  {
+   width: 5rem;
+   height: 5rem;
+  }
+  .texto{
+   font-size: 2rem;
+  }
+  .subTexto 
+  {
+   font-size: 1.1rem;
+   margin-left: 1rem;
   }
 }
