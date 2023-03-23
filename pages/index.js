@@ -65,7 +65,6 @@ const handlerTraducirEn = () =>{
    {translation ? <h2>{traduccion.elegirBicicletaPt}</h2> : <h2>{traduccion.elegirBicicletaEn}</h2>}
     <button><Link href='/Galery'>{translation ? `${traduccion.btnReservaPt}` : `${traduccion.btnReservaEn}`}</Link></button>
    </div>
-   
    <ThirdPart translation={translation}/>
    <FourPart translation={translation}/>
 

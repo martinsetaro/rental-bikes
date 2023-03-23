@@ -205,16 +205,8 @@
     flex-direction: column;
    
   }
-  .contenedorDatosExtras .sillasninos
-  {
-  width: 100%;
-   margin-bottom: 2rem;
-    
-  }
-  .contenedorDatosExtras .sillasninos h2 
-  {
-    font-size: 2rem;
-  }
+ 
+  
   .contenedorDatosExtras .contenedorCardDatosExtras
   {
     width: 100%;
@@ -231,37 +223,7 @@
   
 }
 
-.sillasninos
-{
-background-image: url('../public/assets/img/chairChild.png');
-background-size: cover;
-width: 25rem;
-height: 30rem;
-box-shadow: 0 0 2rem #ededed;
-padding-top: 1rem;
-border-radius: 1rem;
-}
-.sillasninos h2 
-{
-  font-size: 2.5rem;
-}
-.sillasninos h4 
-{
-  text-align: center;
-  font-size: 1.5rem;
-  font-family: 'OutfitR';
-}
-.contenedorCardDatosExtras
-{
-  width: 25rem;
-height: 30rem;
-box-shadow: 0 0 2rem #ededed;
-background-image: url('../public/assets/img/talles.jpeg');
-background-size: contain;
-background-repeat: no-repeat;
-background-color: #000;
-border-radius: 1rem;
-}
+
 .contenedorCardDatosExtras h2 
 {
   color: #fff;

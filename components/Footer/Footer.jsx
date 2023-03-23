@@ -13,7 +13,7 @@ const Footer = () => {
            <h3>bcr_mountainbikerental</h3>
         </div>
         </div>
-        <h4>Site designed by <Link href="https://martinsetaro.netlify.app/"><span>Martin Setaro &copy; 2022</span></Link> for Bcr Mountain Rental Mendoza</h4>
+        <h4>Site designed by <Link href="https://setaromartin.netlify.app/"><span>Martin Setaro &copy; 2022</span></Link> for Bcr Mountain Rental Mendoza</h4>
     </div>
   )
 }

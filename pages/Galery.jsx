@@ -90,17 +90,7 @@ const Galery = () => {
             </div>
           </div>
 
-          <div className={style.contenedorDatosExtras}>
-            <div className={style.sillasninos}>
-            {translation ? <h2>{traduccion.familiaPt}</h2> : <h2>{traduccion.familiaEn}</h2>}
-            {translation ? <h2>{traduccion.sillasninosPt}</h2> : <h2>{traduccion.sillasninosEn}</h2>}
-            {translation ? <h4>{traduccion.adicionalPt}</h4> : <h4>{traduccion.adicionalEn}</h4>}
-            </div>
-            <div className={style.contenedorCardDatosExtras}>
-                {translation ? <h2>{traduccion.tamañoPt}</h2> : <h2>{traduccion.tamañoEn}</h2>}
-            </div>
-            
-          </div>
+          
 
           <div className={style.tituloGalery}>
              {translation ? <h2>Galeria</h2> : <h2>Galery</h2>}

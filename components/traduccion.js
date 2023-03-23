@@ -20,6 +20,7 @@ const traduccion = {
     familiaPt:"Para toda a família!",
     sillasninosEn:"child chairs",
     adicionalEn:"additional",
+    experienciaEn:"Live the mountain experience",
     /* Portugues */
     metodoPagoPt:"Não é necessário fazer reservas, o pagamento é efectuado no momento da assinatura do contrato e após verificação de tudo. Os pagamentos são aceites em Pesos Argentinos, Dólares ou Euros à taxa de câmbio actual no momento da assinatura do contrato (a taxa em Dólares ou Euros pode variar dependendo da taxa de câmbio do dia).",
     metodoPagoTextoPt:"◾ Dinheiro ◾ Transferência bancária ◾ Pagamento no mercado",
@@ -38,7 +39,8 @@ const traduccion = {
     tamañoEn:"Size",
     familiaEn:"For the entire family!",
     sillasninosPt:"cadeiras de criança",
-    adicionalPt:"adicional"
+    adicionalPt:"adicional",
+    experienciaPt:"Experimente as montanhas"
 }
     
 

@@ -17,6 +17,13 @@
     padding: 3rem ;
     background-color: #fff;
   }
+
+  @media (max-width:768px){
+    .contenedorTres {
+      width: 100%;
+      padding: 2rem 0;
+    }
+  }
   .contenedorTres h2 
   {
     font-size: 5rem;
@@ -25,61 +32,52 @@
     color: #1e1e1e;
     font-family: 'OutfitR';
   }
-
-.contenedorImagenes 
-{
-  max-width:120rem;
-  height: auto;
-  padding: 3rem 2rem;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-around;
-}
-.contenedorCard
-{
-    width: 20rem;
-    height: 25rem;
-    margin-bottom: 1rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-}
-
-.card
-{
-    box-shadow: 0 0 1rem #7d7d7d;
-}
-.contenedorElementos {
-  font-family: 'OutfitR';
-  font-size: 1.8rem;
-  border-top: .1rem solid #1e1e1e;
-  border-bottom: .1rem solid #1e1e1e;
-  padding-bottom: 1rem;
-}
-
-@media(max-width:768px){
-    .contenedorCard 
-    {
-        width:100%;
-        height: auto;
-        margin-bottom: 3rem;
-    }
-    .contenedorCard img 
-    {
-       width:100%;
-       height: auto; 
-       margin-bottom: .5rem;
-    }
+  @media (max-width:768px){
     .contenedorTres h2 
     {
-      font-size: 4rem;
-    }
-    .contenedorTres 
-    {
-      width: 100%;
-      padding: 1rem;
+      font-size: 3rem;
       
     }
-    
+  }
+
+.containerImagenes 
+{
+  width: 100%;
+  height: 40rem;
+  position: relative;
+  overflow: hidden;
+
+}
+@media (max-width:768px){
+  .contenedorTres .containerImagenes 
+  {
+    height: 20rem;
+  }
+  
+}
+
+
+.containerImagenes .mountainBiker
+{
+  position: absolute;
+  width: 35rem;
+  height: 35rem;
+  z-index: 40;
+}
+.containerImagenes .mountainImg 
+{
+  position: absolute;
+  width: 100%;
+  height: 40rem;
+}
+
+@media (max-width:768px){
+  .contenedorTres .mountainBiker {
+    width: 10rem;
+    height: 10rem;
+  }
+  .contenedorTres .mountainImg{
+    width: 100%;
+    height: 15rem;
+  }
 }
